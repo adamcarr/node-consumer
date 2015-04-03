@@ -23,5 +23,6 @@ cd node-consumer
 git fetch
 git checkout incorrect
 npm install
+npm update node-dependency
 npm run build
 ```
