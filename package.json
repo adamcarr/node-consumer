@@ -1,0 +1,15 @@
+{
+  "name": "node-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --module commonjs index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-dependency": "git+ssh://git@github.com:adamcarr/node-dependency.git#master"
+  },
+  "author": "",
+  "license": "ISC"
+}
